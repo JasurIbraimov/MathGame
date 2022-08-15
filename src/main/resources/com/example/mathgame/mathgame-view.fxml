@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #2ecc71;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mathgame.MathGameController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #27ae60;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="MATH GAME" wrappingWidth="152.53675651550293">
+               <font>
+                  <Font name="Ebrima Bold" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <ImageView fitHeight="390.0" fitWidth="594.0" layoutX="3.0" layoutY="78.0" opacity="0.5" pickOnBounds="true">
+         <image>
+            <Image url="@math.png" />
+         </image>
+      </ImageView>
+      <Button id="addBtn" fx:id="addBtn" layoutX="213.0" layoutY="103.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="174.0" style="-fx-background-color: #f1c40f;" text="Addition" textFill="WHITE">
+         <font>
+            <Font name="Ebrima Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow height="5.0" radius="2.0" width="5.0">
+               <color>
+                  <Color opacity="0.39209726452827454" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button id="subBtn" fx:id="subBtn" layoutX="213.0" layoutY="187.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="174.0" style="-fx-background-color: #e67e22;" text="Subtraction" textFill="WHITE">
+         <font>
+            <Font name="Ebrima Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow height="5.0" radius="2.0" width="5.0">
+               <color>
+                  <Color opacity="0.39209726452827454" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button id="multBtn" fx:id="multBtn" layoutX="213.0" layoutY="273.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="174.0" style="-fx-background-color: #e74c3c;" text="Multiplication" textFill="WHITE">
+         <font>
+            <Font name="Ebrima Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow height="5.0" radius="2.0" width="5.0">
+               <color>
+                  <Color opacity="0.39209726452827454" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button id="divBtn" fx:id="divBtn" layoutX="213.0" layoutY="364.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="174.0" style="-fx-background-color: #c0392b;" text="Division" textFill="WHITE">
+         <font>
+            <Font name="Ebrima Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow height="5.0" radius="2.0" width="5.0">
+               <color>
+                  <Color opacity="0.39209726452827454" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
